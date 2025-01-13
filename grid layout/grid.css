@@ -64,6 +64,7 @@ nav button{
   justify-content: center;
   align-items: center;
   position: relative;
+  padding-top: 145px;
 }
 span{
   background-color: #BE9F6875;
@@ -90,6 +91,8 @@ section button{
   background-color: #BE9F68;
   padding: 27px 35px 25px 31px;
   cursor: pointer;
+  margin-top: 11px;
+  text-transform: uppercase;
 }
 .secondS{
   display: flex;
@@ -152,7 +155,7 @@ section button{
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding-top: 245px;
+  padding-top: 150px;
 }
 .grid-container{
   display: grid;
@@ -235,7 +238,7 @@ section button{
 .grid-container2{
   display: flex;
   width:1236px;
-  gap:21px;
+  gap:35px;
   justify-content: center;
   margin-bottom: 158px;
 }
@@ -295,7 +298,7 @@ input{
   width: 427px;
   height: 51px;
   background-color: #22211B;
-  border: solid 5px #BE9F68;
+  border: solid 4px #BE9F68;
   font-family: "Inter",serif;
   font-size: 15px;
   font-weight: 300;
@@ -310,8 +313,11 @@ input{
   margin-top: 24px;
 }
 .input button{
-  padding:7px ;
+  padding:10px;
+  margin-bottom: 10px;
   font-family: "Inter",serif;
+  font-size: 25px;
+  text-transform: capitalize;
   cursor: pointer;
 }
 footer{
